@@ -1,0 +1,149 @@
+
+#leftbox{
+    float: left;
+    width: 20%;
+    padding: 10px 18px 10px 18px;
+}
+#rightbox{
+    width: 76%;
+    float:right;
+    padding: 10px 10px 10px 10px;
+}
+#navbar #icn{
+    vertical-align: middle; /* or baseline, bottom, etc. */
+}
+
+#logo{
+    background-color:cornflowerblue;
+    margin-bottom: 10px;
+    border-radius: 20px;    
+    padding: 20px 15px 20px 0px;
+}
+#logo img{
+    border-radius: 30%;
+    height:150px ;
+    width: 150px;  
+    margin-left: 78px;
+}
+#navbar ul{
+    list-style-type:none;
+    margin-left: 0px;
+    padding:0px;
+}
+#navbar ul li{
+    border-radius: 10px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    width: 260px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#navbar ul li a:hover{
+    background-color: ghostwhite;
+
+}
+#menubox{
+    background-color:lightskyblue;
+    border-radius: 10px;
+    padding:10px 20px 10px 20px;    
+    margin-bottom: 10px;
+}
+#bottomimg img{
+        margin-left: 25px;
+        border-radius: 10px;
+}
+#searchbutton input[type="text"]{
+    height: 26px;
+    width: 250px;
+    background-color: white;
+    border-radius: 12px ;
+
+}
+#management{
+    border-radius: 10px;
+    padding:10px 20px 10px 20px; 
+    background-color:rgba(173, 216, 230, 0.551)  ;
+    
+}
+#management ul li a{
+    text-decoration: none;
+}
+#management ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#management ul li {
+    display: block;
+}
+#management ul li:hover{
+    background-color: rgba(0, 255, 255, 0.489);
+
+}
+#upperbox{
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+#qu{
+    margin-bottom: 10px ;
+    border-radius: 10px;
+    background-color:lightcyan  ;
+    height: 60px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+}
+#b1{
+    margin-bottom: 10px;
+    background-color: rgba(255, 182, 193, 0.485);
+    border-radius: 10px;
+    height: 130px;
+    padding: 10px 10px 10px 10px;
+}
+#datebox{
+    border-radius: 10px;
+    background-color: lavender;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+
+}
+#overview{
+    background-color: paleturquoise;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#lh4{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size:20px;
+    border-radius: 10px;
+}
+#bottomimg{
+    background-color: lavender;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#socialmedia a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+.iconn:hover{
+    fill: cyan;
+}
+
